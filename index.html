@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row row-title">
+            <h3 class="title">Tic-Tac-Toe GAME</h3>
+        </div>
+        <!--  -->
+        <div class="row score-area">
+            <div class="score score-text">
+                <p>Player 1</p>
+                <p>SCORE</p>
+                <p>Player 2</p>
+            </div>
+            <div class="score score-board">
+                <div class="score-board-1">
+                    <table>
+                        <tr>
+                            <td>X</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="point"><h2 id="X">0</h2></div>
+                <div class="point"><h2>:</h2></div>
+                <div class="point"><h2 id="O">0</h2></div>
+                <div class="score-board-1">
+                    <table>
+                        <tr>
+                            <td>O</td>
+                        </tr>
+                    </table>
+                </div>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="table main-game">
+                <table>
+                    <tbody id="board">
+                        <tr class="row">
+                            <td id="top-1" class="play"></td>
+                            <td id="top-2" class="play"></td>
+                            <td id="top-3" class="play"></td>
+                        </tr>
+                        <tr> 
+                            <td id="middle-1" class="play"></td>
+                            <td id="middle-2" class="play"></td>
+                            <td id="middle-3" class="play"></td>
+                        </tr>
+                        <tr>
+                            <td id="bottom-1" class="play"></td>
+                            <td id="bottom-2" class="play"></td>
+                            <td id="bottom-3" class="play"></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <!--  -->
+        <div class="row">
+            <div class="col-md-12 btn-div">
+                <button class="btn stop">STOP</button>
+            </div>
+        </div>
+        <!--  -->
+        <div class="row">
+            <div class="container last"></div>
+        </div>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
